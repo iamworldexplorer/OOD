@@ -58,8 +58,8 @@ public class CoinGame {
 	public CoinGame() {}
 	
 	public CoinGame(String player1Name, String player2Name) {
-		Player player1 = new Player("Player 1");
-		Player player2 = new Player("Player 2");
+		Player player1 = new Player(player1Name);
+		Player player2 = new Player(player2Name);
 		players = new Player[]{player1, player2};
 		this.coin = new Coin();
 	}

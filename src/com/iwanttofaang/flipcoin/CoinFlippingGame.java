@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class CoinFlippingGame {
 	public static void main(String[] args) {
-		CoinGame game = new CoinGame("player1", "player2");
+		CoinGame game = new CoinGame("Rachel", "Ross");
 		
 		try (Scanner scanner = new Scanner(System.in)) {
 			String answer = null;

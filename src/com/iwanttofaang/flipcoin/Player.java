@@ -15,6 +15,7 @@ public class Player {
 	public CoinValue getRandomCoinOption() {
 		int optionValue = Math.random() < 0.5 ? 0 : 1;
 		this.coinOption = CoinValue.NAME_VALUE.get(optionValue);
+		System.out.println("The player " + this.name + " chose the option " + this.coinOption);
 		return this.coinOption;
 	}
 	
@@ -40,5 +41,7 @@ public class Player {
 	public void setCoinOption(CoinValue opponentCoinOption) {
 		this.coinOption = opponentCoinOption.equals(CoinValue.Head) ? CoinValue.Tail
 				: CoinValue.Head;
+		
+		System.out.println("The Option " + this.coinOption + " has been assigned to the Player " + this.name);
 	}
 }
