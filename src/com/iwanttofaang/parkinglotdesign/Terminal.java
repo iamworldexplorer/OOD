@@ -40,4 +40,3 @@ public class Terminal {
 		System.out.println("Thank you for staying at our parking. Have a great day!");
 	}
 }
-

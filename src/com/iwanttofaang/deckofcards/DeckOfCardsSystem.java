@@ -1,6 +1,6 @@
 package com.iwanttofaang.deckofcards;
 
-public class CreateDeck {
+public class DeckOfCardsSystem {
 
 	public static void main(String[] args) {
 		Deck deck = new Deck();
